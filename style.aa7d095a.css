@@ -102,7 +102,7 @@ a {
 }
 @media screen and (max-width: 320px) {
   html {
-    font-size: 7px;
+    font-size: 8px;
   }
   .mobile-nav {
     display: flex !important;
@@ -113,7 +113,7 @@ a {
 }
 @media screen and (min-width: 320px) and (max-width: 640px) {
   html {
-    font-size: 10px;
+    font-size: 11px;
   }
   .logo {
     width: 150px;
@@ -255,27 +255,32 @@ body {
   .offer {
     background-image: url(offer.73ba7dff.jpg);
   }
+  .about {
+    background-position: 0 170%;
+  }
 }
 @media screen and (max-width: 700px) {
   .photo {
     background-repeat: no-repeat;
-    height: 300px;
-    background-size: auto 300px;
+    height: 200px;
+    background-size: 700px auto;
     background-position: 50%;
   }
   .about {
-    background-position: 20% 0;
+    background-position: 0 70%;
   }
   .offer {
     background-image: url(offer-small.32179247.jpg);
   }
+  .contact {
+    background-position: 10% 50%;
+  }
 }
 .about {
-  background-image: url(about.fceed97c.jpg);
+  background-image: url(about1.ec5bb757.jpg);
 }
 .contact {
-  background-image: url(contact.364e1409.jpg);
-  height: 200px;
+  background-image: url(contact1.8589c9a5.jpg);
 }
 .photo-header {
   max-width: 100vw;
@@ -474,4 +479,4 @@ body {
 .language-icon {
   width: 3rem;
 }
-/*# sourceMappingURL=/style.0dcc1e9e.css.map */
+/*# sourceMappingURL=style.aa7d095a.css.map */
