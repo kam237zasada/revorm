@@ -18,6 +18,9 @@
     opacity: 1;
   }
 }
+a {
+  text-decoration: none;
+}
 .site {
   visibility: hidden;
   background-image: linear-gradient(#fff, var(--background-color));
@@ -380,20 +383,23 @@ body {
   color: var(--background-color);
   font-size: 2.5rem;
 }
-.contact-header,
 .contact-icon {
   color: #ff0;
   font-size: 2.5rem;
+  padding-right: 10px;
 }
 .contact-header {
+  color: #ff0;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-size: 2.5rem;
 }
 .paragraph-contact {
   font-size: 2rem;
 }
 .section-text {
   padding-left: 20px;
+  color: #ff0;
 }
 .isopen {
   background-color: #ff0;
@@ -468,4 +474,4 @@ body {
 .language-icon {
   width: 3rem;
 }
-/*# sourceMappingURL=style.9a39cf33.css.map */
+/*# sourceMappingURL=style.0dcc1e9e.css.map */
