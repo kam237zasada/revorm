@@ -279,12 +279,12 @@ body {
     background-position: 0 100%;
   }
 }
-@media screen and (min-width: 901px) and (min-height: 500px) {
+@media screen and (min-width: 901px) and (max-height: 700px) {
   .about {
-    background-position: 0 160%;
+    background-position: 0 100%;
   }
 }
-@media screen and (min-width: 901px) and (min-height: 600px) {
+@media screen and (min-width: 901px) and (min-height: 701px) {
   .about {
     background-position: 0 180%;
   }
@@ -544,4 +544,4 @@ body {
 .language-icon {
   width: 3rem;
 }
-/*# sourceMappingURL=style.f585ada9.css.map */
+/*# sourceMappingURL=style.88cf942a.css.map */
