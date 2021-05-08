@@ -416,11 +416,10 @@ body {
   font-size: 2.5rem;
 }
 .contact-icon {
-  color: #fff;
-  font-size: 2.5rem;
   padding-right: 10px;
 }
-.contact-header {
+.contact-header,
+.contact-icon {
   color: #fff;
   font-size: 2.5rem;
 }
@@ -544,4 +543,4 @@ body {
 .language-icon {
   width: 3rem;
 }
-/*# sourceMappingURL=style.88cf942a.css.map */
+/*# sourceMappingURL=style.35c8a2f4.css.map */
