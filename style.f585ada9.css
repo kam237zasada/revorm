@@ -286,7 +286,7 @@ body {
 }
 @media screen and (min-width: 901px) and (min-height: 600px) {
   .about {
-    background-position: 0 200%;
+    background-position: 0 180%;
   }
 }
 @media screen and (min-width: 701px) {
@@ -544,4 +544,4 @@ body {
 .language-icon {
   width: 3rem;
 }
-/*# sourceMappingURL=style.dd42c892.css.map */
+/*# sourceMappingURL=style.f585ada9.css.map */
