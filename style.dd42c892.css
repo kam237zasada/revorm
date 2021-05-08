@@ -126,7 +126,7 @@ a {
     display: none !important;
   }
 }
-@media screen and (min-width: 641px) and (max-width: 750px) {
+@media screen and (min-width: 641px) and (max-width: 900px) {
   html {
     font-size: 15px;
   }
@@ -141,7 +141,7 @@ a {
     display: none !important;
   }
 }
-@media screen and (min-width: 751px) and (max-width: 960px) {
+@media screen and (min-width: 901px) and (max-width: 960px) {
   html {
     font-size: 15px;
   }
@@ -176,12 +176,12 @@ body {
 }
 .link {
   text-decoration: none;
-  margin: 5px;
   color: #fff;
   font-size: 2rem;
   z-index: 3;
   border-bottom: 1px solid #fff;
   height: auto;
+  margin: 5px 13px;
 }
 .link:hover {
   color: #ff0;
@@ -236,6 +236,9 @@ body {
   color: #fff;
   padding: 5px;
 }
+.header-icon {
+  margin-left: 15px;
+}
 .icon:hover {
   color: #ff0;
   transition: color 1s;
@@ -243,21 +246,6 @@ body {
 .sign {
   color: #fff;
   font-size: 1em;
-}
-@media screen and (min-width: 701px) {
-  .photo {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 300px;
-    height: 50vh;
-    background-size: cover;
-  }
-  .offer {
-    background-image: url(offer.73ba7dff.jpg);
-  }
-  .about {
-    background-position: 0 170%;
-  }
 }
 @media screen and (max-width: 700px) {
   .photo {
@@ -274,6 +262,43 @@ body {
   }
   .contact {
     background-position: 10% 50%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .about {
+    background-position: 0 80%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .about {
+    background-position: 0 50%;
+  }
+}
+@media screen and (min-width: 901px) and (min-height: 400px) {
+  .about {
+    background-position: 0 100%;
+  }
+}
+@media screen and (min-width: 901px) and (min-height: 500px) {
+  .about {
+    background-position: 0 160%;
+  }
+}
+@media screen and (min-width: 901px) and (min-height: 600px) {
+  .about {
+    background-position: 0 200%;
+  }
+}
+@media screen and (min-width: 701px) {
+  .photo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 300px;
+    height: 50vh;
+    background-size: cover;
+  }
+  .offer {
+    background-image: url(offer.73ba7dff.jpg);
   }
 }
 .about {
@@ -308,6 +333,8 @@ body {
 .offer-text {
   align-self: center;
   color: #000;
+  font-size: 2rem;
+  text-align: center;
 }
 @keyframes underline {
   0% {
@@ -394,17 +421,55 @@ body {
   padding-right: 10px;
 }
 .contact-header {
-  color: #ff0;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  color: #fff;
   font-size: 2.5rem;
 }
 .paragraph-contact {
-  font-size: 2rem;
+  font-size: 1em;
+}
+.smaller-contact > * {
+  font-size: 0.8em !important;
 }
 .section-text {
-  padding-left: 20px;
-  color: #ff0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact-container {
+  font-size: 2rem;
+  margin: 20px;
+  width: 100%;
+  justify-content: center;
+}
+@media screen and (max-width: 399px) {
+  .contact-column,
+  .register-column {
+    height: 350px;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+  }
+  .register-column {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 400px) {
+  .contact-column,
+  .register-column {
+    height: 550px;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+  }
+  .register-column {
+    text-align: center;
+  }
+}
+.logo-contact {
+  width: 100vw;
 }
 .isopen {
   background-color: #ff0;
@@ -479,4 +544,4 @@ body {
 .language-icon {
   width: 3rem;
 }
-/*# sourceMappingURL=style.aa7d095a.css.map */
+/*# sourceMappingURL=style.dd42c892.css.map */
